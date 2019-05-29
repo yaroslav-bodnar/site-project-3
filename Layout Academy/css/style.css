@@ -118,3 +118,67 @@ header {
 	display: table;
 	clear: both;
 }
+
+
+/*Контейнер -Наши покупатели-*/
+.container-customers {
+	width: 1140px;
+	height: 660px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 110px;
+	margin-top: 90px;
+}
+
+.customers-title {
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.customers__img {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	margin-bottom: 40px;
+}
+
+/*Закрывает свойство float которое поставлено в предидущем блоке*/
+.customers-wrap:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+.container-footer {
+	height: 70px;
+	background: #e6e6e6;
+}
+
+.copy {
+	font-size: 15px;
+	font-family: Tahoma;
+	color: rgb(69, 66, 66);
+	line-height: 2.4;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.copy a {
+	text-decoration: none;
+}
+
+.BOD {
+	font-size: 20px;
+	font-family: "Myriad Pro" "Arial";
+	color: rgba(255, 255, 255, 0.969);
+	line-height: 0.308;
+	text-shadow: 0px 3px 0px rgba(130, 105, 157, 0.75);
+}

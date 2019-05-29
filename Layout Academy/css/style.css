@@ -65,11 +65,56 @@ header {
 .button-button-o {
 	border-radius: 5px;
 	border: 2px solid #f05a22;
-	background-color: #ffffff;
+	background-color: transparent;/*прозрачный фон*/
 	color: #f05a22;
 	font-family: Tahoma;
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 27px;
 	padding: 21px 30px 22px 30px;
+}
+
+
+/*Контейнер - Доставка и оплата - */
+.container-delivery {
+	height: 408px;
+	border: 1px solid #ffffff;
+	background-color: #f2f2f2;
+}
+
+.delivery-title {
+	text-align: center;
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+	margin-top:90px;
+}
+
+.delivery {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	float: left;
+	margin-top: 90px;
+}
+
+.delivery__img {
+	min-height: 55px;
+}
+
+.delivery__text {
+	color: #333333;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+/*Закрывает свойство float которое поставлено в предидущем блоке*/
+.delivery-wrap:after {
+	content: "";
+	display: table;
+	clear: both;
 }

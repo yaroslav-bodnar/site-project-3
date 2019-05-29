@@ -9,3 +9,67 @@ header {
 	padding-top: 77px;
 	padding-bottom: 96px;
 }
+
+.header-img {
+	display: inline-block;
+	width: 39%;/*в html такая особенность - он оставляет 1% на пробелы и т.к. С этим ничего не поделать, нужно делать так*/
+	vertical-align: middle;/*это свойство с таким значением, и такое же в следуещем блоке, выравнивает оба блока по центру горизонтали относительно друг друга*/
+}
+
+.header-text {
+	display: inline-block;
+	width: 60%;
+	vertical-align: middle;
+	font-family: Tahoma;
+}
+
+.header-text__title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.header-text__subtitle {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.header-text__descrip {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	max-width: 526px;
+	margin-bottom: 47px;
+}
+
+.header-text__price {
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-bottom: 53px;
+}
+
+.button {
+	border-radius: 5px;
+	background-color: #f05a22;
+	color: #ffffff;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 22px 42px 22px 46px;
+	margin-right: 40px;
+}
+
+.button-button-o {
+	border-radius: 5px;
+	border: 2px solid #f05a22;
+	background-color: #ffffff;
+	color: #f05a22;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 21px 30px 22px 30px;
+}
